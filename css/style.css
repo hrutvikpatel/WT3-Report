@@ -33,8 +33,7 @@ Variables
 --------------------*/
 
 :root {
-    --main-purple: #7C5EFD;
-    --main-blue: #99EEEE;
+    --main-blue: #3D8ECD;
     --main-yellow: #F7BC23;
     --main-red: #FF4848;
     --main-black: #303030; 
@@ -136,7 +135,7 @@ section {
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
-	color: #FFF
+	color: rgb(133, 123, 123)
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
     background-color: var(--main-yellow);
@@ -197,12 +196,10 @@ section {
 
 header {
     text-align: center;
-    color: #fff;
-    background-color: var(--main-purple);
 }
 
-header .ncr-name {
-    color: var(--main-green);
+header .company-name {
+    color: var(--main-blue);
 }
 
 header .intro-text {
@@ -238,7 +235,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 35px;
     line-height: 50px;
     margin-bottom: 25px;
 }
@@ -247,7 +244,7 @@ header .intro-text .intro-heading {
 	header .intro-text .intro-heading {
 	    text-transform: uppercase;
 	    font-weight: 700;
-	    font-size: 75px;
+	    font-size: 50px;
 	    line-height: 75px;
 	    margin-bottom: 50px;
 	}
@@ -450,7 +447,7 @@ height: 95px;
 
 .team-item {
     text-align: center;
-    background-color: var(--main-purple);
+    background-color: var(--main-blue);
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top: 10px;
