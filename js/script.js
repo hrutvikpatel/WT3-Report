@@ -1,34 +1,19 @@
 const goals = [
   {
-    title: "Goal 1: Oral Communication",
-    body: "Having technical communication skills in the workplace is very important. I initially faced a lot of challenges in understanding the terminologies and methodologies applied in discussions. As a result, the most important goal for my first co-op was to be able to communicate professionally. I accomplished this goal by carefully listening, understanding and asking questions during meetings about terminologies and methodologies utilized. Having proper communication skills and knowledge of methodologies, allowed me to effectively discuss my ideas with colleagues.",
+    title: "Goal 1: Technological Literacy",
+    body: "Learning Ruby and Rspec were relatively easy as they are just a different programming language and testing framework which are similar to others that I have learned in the past. The true challenge was wrapping my head around Rails. I tackled the steep learning curve by researching Rails basics and asking my Team Lead to assign me challenging backend work. Over time, I gained more knowledge and began to understand how the layers of logic tied together.",
     status: "achieved",
   },
   {
     title: "Goal 2: Depth & Breadth of Understanding",
-    body: "My tasks were UI based and required knowledge of ReactJS. However, knowing only ReactJS was not ideal to properly build the UI. I would at times require knowledge of how the backend works and use it to test my UI components. Thus, I would also require knowledge of the in-house API Orchestration and how to run it locally using Docker to test it. I measured my success by recognizing how easy it had become to utilize the new technologies to solve the tasks at hand.",
-    status: "achieved"
-  },
-  {
-    title: "Goal 3: Personal Learning Goal",
-    body: "I want to become aware of the various roles in my field because this will allow me to explore different career paths. I achieved this goal by asking team members what their position is about, how it impacts the team and what it's like to work day-to-day in their position. I measured my success by eventually understanding the job responsibilities of each role and how they all contribute to the project's success.",
-    status: "achieved"
-  },
-  {
-    title: "Goal 4: Personal Learning Goal",
-    body: "I wanted to learn specifically how the DevOps Engineer works with the team to streamline the CICD pipeline. I planned to achieve this goal by learning from a DevOps on my team who agreed to teach me. However, I was unable to achieve this goal because there were tight project deadlines in the fall.",
+    body: "As a Platform team, our goal is to build tools that internal teams can utilize to make their work easier. I knew about the basics of what and how to use Authentication and Authorization, but I had no idea how to build a library around it. As my primary focus became to work on fixing Hubspot integration bugs, it became hard to research about the auth library. I, however, was able to gain some knowledge on it by taking up testing tasks on the auth library that my team built.",
     status: "failed"
   },
   {
-    title: "Goal 5: Technological Literacy",
-    body: "My weakness as a software developer is that I tend to complete the task at hand as fast as possible. This resulted in poor design, inconsistent standards, and code repetition. My mentor had recognized this as an area of improvement and advised me to always start a task by designing the requirements, thinking of edge cases and testing out the code based on the requirements before submitting the code. Eventually, my code submissions had fewer criticisms on these issues, which illustrated that I had improved. ",
+    title: "Goal 3: Personal Learning Goal",
+    body: "As a developer, knowing how to use git is crucial. I knew the basics of how to use git to commit and pull changes. But I was never comfortable with how to revert changes on my branch, changing the base branch, and any other technical tasks that required careful maneuvering because you can easily mess up the codebase in the repo. I overcame this discomfort by researching git solutions to the above issues and carefully reading each command and what it does, before blindly doing them. Over the work term, I had to rebase, revert code multiple times, and by carefully solving them with the help of Google and my mentor I was able to gain confidence in using git.",
     status: "achieved"
   },
-  {
-    title: "Goal 6: Leadership",
-    body: "My tech lead had set this goal for me to train team members on the Orchestration and UI technologies before my co-op ended. My action plan was to mentor the team members with application design, code flow and troubleshooting problems as required, as well as set up their environments. In retrospect, I was able to train the new co-op, contractors and full-time software developers on React and NCR's API toolkit.",
-    status: "achieved"
-  }
 ];
 
 $(function () {

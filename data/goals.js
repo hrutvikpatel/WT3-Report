@@ -19,24 +19,4 @@ export default goals = [
     "title": "title 3",
     "body": "body 3"
   },
-  {
-    "id": 4,
-    "title": "title 4",
-    "body": "body 4"
-  },
-  {
-    "id": 5,
-    "title": "title 5",
-    "body": "body 5"
-  },
-  {
-    "id": 6,
-    "title": "title 6",
-    "body": "body 6"
-  },
-  {
-    "id": 7,
-    "title": "title 7",
-    "body": "body 7"
-  }
 ];
